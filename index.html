@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w3-display-container w3-panel w3-green" style="height:100px;">
+        <div class="w3-xlarge w3-display-left w3-padding">Quiz</div>
+        <div class="w3-display-right w3-padding" id="total_ques" ></div>
+    </div>
+    <div class="w3-container w3-padding-32 w3-margin-top">  
+        <div id="question" class="w3-panel w3-mobile"></div>
+        <div id="answers" class="w3-panel w3-mobile"></div>
+        <div id="score" class="w3-panel w3-display-middle w3-mobile" style="text-align: center;"></div>
+        <input type="submit" onclick="next()" value="Next" id="nextBtn" class="w3-button w3-blue w3-mobile">
+        <input type="submit" onclick="submit()" value="Submit" id="submitBtn" class="w3-button w3-green w3-display-middle w3-mobile">
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
